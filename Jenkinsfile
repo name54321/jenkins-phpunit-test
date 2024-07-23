@@ -16,4 +16,7 @@ pipeline {
             }
 		}
 	}
+post {
+alwats {
+junit testResults: 'logs/unitreport.xml'
 }
