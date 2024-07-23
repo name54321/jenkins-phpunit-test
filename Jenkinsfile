@@ -17,6 +17,8 @@ pipeline {
 		}
 	}
 post {
-alwats {
+always {
 junit testResults: 'logs/unitreport.xml'
+}
+}
 }
